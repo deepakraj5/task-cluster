@@ -9,7 +9,7 @@ function App() {
 
   const handleRandomNumber = () => {
 
-      fetch('http://api.task.com/random/number')
+      fetch('http://api.deepakdev.live/random/number')
         .then(res => res.json())
         .then(data => {
           setRandomNumber(data.randomNumber)
